@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Garden</string>
+    <string name="title_activity_dashboard">Digital Garden</string>
+    <string name="tab_text_1">Plants</string>
+    <string name="tab_text_2">Forum</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hiiiiiiii</string>
+    <string name="plant_name">Plant\'s name</string>
+    <string name="plant_specie">Specie</string>
+    <string name="last_water">Last time you watered the plant:</string>
+    <string name="water_day">Days</string>
+    <string name="water_frequency">How often should the plant be watered:</string>
+    <string name="ideal_temperatures">Ideal temperatures:</string>
+    <string name="temperature_start">°C</string>
+    <string name="temperature_end">°C</string>
+    <string name="days">Days</string>
+    <string name="add_plant">Add plant</string>
+    <string name="notes">Notes</string>
+    <string name="name_and_specie">%1$s - %2$s</string>
+    <string name="min_and_max"><u>%1$d - %2$d</u></string>
+    <string name="edit_plant">Edit plant</string>
+    <string name="title_activity_sign_options">SignOptionsActivity</string>
+    <string name="title_activity_create_account_with_email">CreateAccountWithEmailActivity</string>
+    <string name="title_activity_google_sign_in">GoogleSignIn</string>
+    <string name="drawOpen">drawOpen</string>
+    <string name="drawClose">drawClose</string>
+    <string name="soil_moisture">Soil moisture</string>
+    <string name="light_level">Light level</string>
+    <string name="hyphen">-</string>
+    <string name="plant_image_holder">Plant image holder</string>
+    <string name="add_image_icon">Add image icon</string>
+    <string name="open_camera_icon">Open Camera icon</string>
+    <string name="icon_for_partial_sun">Icon for Partial Sun</string>
+    <string name="background_image">Background Image</string>
+    <string name="title">Digital Garden</string>
+    <string name="create_account">Create account</string>
+    <string name="sign_in">Sign in</string>
+    <string name="display_name">Display Name</string>
+    <string name="example_email">example@yahoo.com</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="email">Email</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+</resources>

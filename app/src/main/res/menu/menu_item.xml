@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/optionsGroup">
+        <item
+            android:icon="@drawable/ic_account_circle_24px"
+            android:id="@+id/profile"
+            android:title="Profile"/>
+
+        <item
+            android:icon="@drawable/ic_notifications_24px"
+            android:id="@+id/notifications"
+            android:title="Notifications"
+            app:actionLayout="@layout/switch_menu"/>
+
+        <item
+            android:icon="@drawable/ic_contact_support_24px"
+            android:id="@+id/support"
+            android:title="Support"/>
+    </group>
+
+    <group android:id="@+id/logoutGroup">
+        <item
+            android:icon="@drawable/ic_logout"
+            android:id="@+id/logout"
+            android:title="Logout"/>
+    </group>
+
+</menu>
