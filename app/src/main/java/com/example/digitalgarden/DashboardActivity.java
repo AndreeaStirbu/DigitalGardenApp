@@ -384,7 +384,7 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
          */
         alarmManager.setRepeating(AlarmManager.RTC_WAKEUP,
                 plant.getNextNotificationDate(), //should be get next notification date
-                60000, //should be one day
+                60000*60*24, //should be one day
                 pendingIntent);
 
         Log.i("Alarm: ", "created, id: " + plant.getNotificationCode());
@@ -432,8 +432,8 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
     public void updateWhenWatered(Plant plant, Boolean notificationsOn) {
         Calendar c = Calendar.getInstance();
         //TODO: Change to Day from Minute
-        //c.add(Calendar.DATE, plant.getWateringFrequency()); GOOD VERSION
-        c.add(Calendar.MINUTE, plant.getWateringFrequency());
+        c.add(Calendar.DATE, plant.getWateringFrequency()); //GOOD VERSION
+        //c.add(Calendar.MINUTE, plant.getWateringFrequency()); //TESTING
         plant.setNeedsWater(false);
         plant.setNextNotificationDate(c.getTimeInMillis());
 
